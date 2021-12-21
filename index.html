@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Token parser</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <div id="popup" class="popup">Скопировано</div>
+    <div class="container">
+        <div class="block block-left">
+            <textarea id="textarea" class="textarea"></textarea>
+        </div>
+        <div class="block block-center">
+            <button onclick="parse()" class="button button-primary"><p>Parse</p></button>
+            <button onclick="copy()" class="button button-secondary"><p>Copy</p></button>
+        </div>
+        <div class="block block-right">
+            <textarea id="result" class="textarea"></textarea>
+        </div>
+    </div>
+</body>
+<script src='index.js'></script>
+</html>
